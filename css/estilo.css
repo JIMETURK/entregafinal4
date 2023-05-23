@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Condensed:ital,wght@0,300;0,400;1,700 & display=swap');
+
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+.clasebase-header{
+
+display:flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(160, 218, 228);
+padding: 10px;
+
+}
+
+<!--
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo p{
+    margin: 15px 5px;
+}
+
+<!--
+.base-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.base-ul li{
+    margin: 10px 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+<!--servicios--
+.album-deco{ 
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+   
+   
+}
+
+<!--
+.base-formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.img-principal{
+    display:flex;
+    justify-content:right;
+    width: 30px;
+    height: 30px;
+    align-items:center;
+    margin: auto ;
+   
+}
+/* album-grillas-productos */
+.album-grillas{
+
+margin:  auto;
+width: 700px;
+height:500px;
+border: 2px solid cornflowerblue;
+display:grid;
+grid-template-columns:330px 330px;
+grid-template-rows:250px 250px;
+column-gap: 20px;
+row-gap: 20px;
+
+}
+.album-grillas img{
+    margin:0;
+    width: 300px;
+    height: 200px;
+}
+
+.album-grillas.grillas-img1{
+    grid-column: 1/2;
+    grid-row:1;
+}
+
+
+/*footer */
+
+.redes{
+
+    
+display:flex;
+justify-content:center;
+align-items: center;
+background-color: rgb(216, 166, 223);
+padding:5px;
+}
+
+/* area-grillas-servicios */
+
+.contenedor-area-grid{
+width: 100vh;
+height:100vh;
+background-color: rgb(221, 208, 194);
+display: grid;
+grid-template-columns: 200px 350px 350px;
+grid-template-rows: 50px 250px 250px 250px;
+grid-template-areas: "contenedor-area-grid contenedor-area-grid contenedor-area-grid"
+"cont-lateral img1 img2"
+"cont-lateral img3 img4"
+"cont-lateral img5 img6";
+
+}
+.espacios{
+    color: rgb(52, 97, 219);
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(65, 61, 60);
+    box-shadow:3px 3px 3px cornsilk;
+    
+}
+
+.contenedor-area-grid{
+    grid-area: contenedor-area-grid;
+   
+}
+
+.cont-lateral{
+    grid-area: cont-lateral;
+    
+   
+}
+
+.img1{
+    grid-area: img1;
+    width: 150px;
+    height: 150px;
+   
+}
+.img2{
+    grid-area: img2;
+    width: 150px;
+    height: 150px;
+}
+.img3{
+    grid-area: img3;
+        width: 150px;
+    height: 150px;
+}
+.img4{
+    grid-area: img4;
+       width: 150px;
+    height: 150px;
+}
+.img5{
+    grid-area: img5;
+       width: 150px;
+    height: 150px;
+}
+.img6{
+    grid-area: img6;
+      width: 150px;
+    height: 150px;
+}
+/* fin-area-grillas-servicios */
+
+
+
+.intro{
+    display: flex;
+    text-align: center;
+}
+.text-black-50{
+text-align: center;
+
+}
+.apartado{
+    text-align:center;
+    color: rgb(101, 30, 167);
+    text-decoration: double;
+}
+@media (min-width:500px) and(max-width:1140px ) {
+    .apartado{
+        color: rgb(103, 194, 236);
+        text-align: justify;
+    }
+
+}
+/* fin-media-queries */
+
+
+/* bootstrap- */
+.carousel-item{
+    width: 600px;;
+    height: 600px;
+}
+.en-proceso{
+    width: 20px;
+    height: 20px;
+}
+
+/* --github-- */
