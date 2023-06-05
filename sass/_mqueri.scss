@@ -1,0 +1,18 @@
+/* media-queries */
+@media (min-width: 200px) and(max-width:1140px ) {
+    .apartado {
+      color: rgb(103, 194, 236);
+      text-align: justify;
+    }
+  }
+  @media screen and(min-width: 320px) and(max-width: 600px) {
+    .clasebase-header {
+      flex-direction: column;
+    }
+  
+    .base-ul {
+      flex-direction: column;
+    }
+  }
+  /* fin-media-queries */
+  

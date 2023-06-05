@@ -1,0 +1,147 @@
+/* area-grillas-servicios */
+
+.contenedor-area-grid {
+    width: 100vh;
+    height: 100vh;
+    background-color: rgb(221, 208, 194);
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows:  250px 250px;
+    grid-template-areas:
+      "contenedor-area-grid contenedor-area-grid contenedor-area-grid"
+      "cont-lateral imga img2"
+      "cont-lateral img3 img4"
+      "cont-lateral img5 img6";
+  }
+  .espacios {
+    color: rgb(52, 97, 219);
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(65, 61, 60);
+    box-shadow: 3px 3px 3px cornsilk;
+  }
+  
+  .contenedor-area-grid {
+    grid-area: contenedor-area-grid;
+  }
+  
+  .cont-lateral {
+    grid-area: cont-lateral;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  
+  .img1 {
+    grid-area: img1;
+    width: 150px;
+    height: 150px;
+  }
+  .img2 {
+    grid-area: img2;
+    width: 150px;
+    height: 150px;
+  }
+  .img3 {
+    grid-area: img3;
+    width: 150px;
+    height: 150px;
+  }
+  .img4 {
+    grid-area: img4;
+    width: 150px;
+    height: 150px;
+  }
+  .img5 {
+    grid-area: img5;
+    width: 150px;
+    height: 150px;
+  }
+  .img6 {
+    grid-area: img6;
+    width: 150px;
+    height: 150px;
+  }
+  /* fin-area-grillas-servicios */
+  /* area-grillas-servicios */
+  .contenedor-area-grid {
+    width: 100vh;
+    height: 100vh;
+    background-color: rgb(221, 208, 194);
+    display: grid;
+    grid-template-columns: 200px 350px 350px;
+    grid-template-rows: 50px 250px 250px 250px;
+    grid-template-areas:
+      "contenedor-area-grid contenedor-area-grid contenedor-area-grid"
+      "cont-lateral imga imgb"
+      "cont-lateral imgc imgd"
+      "cont-lateral img5 img6";
+  }
+  .imga {
+    grid-area: imga;
+    width: 150px;
+    height: 150px;
+  }
+  .imgb {
+    grid-area: imgb;
+    width: 150px;
+    height: 150px;
+  }
+  .imgc {
+    grid-area: imgc;
+    width: 150px;
+    height: 150px;
+  }
+  .imgd {
+    grid-area: imgd;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .intro {
+    display: flex;
+    text-align: center;
+    color: rgb(116, 111, 111);
+    justify-content: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    height: auto;
+    width: auto;
+  }
+  
+  .text-black-50 {
+    text-align: center;
+  }
+  .carousel-portada {
+    display: flex;
+    text-align: center;
+  }
+  .apartado {
+    text-align: center;
+    color: rgb(101, 30, 167);
+    text-decoration: double;
+  }
+  .servicios {
+    display: flex;
+    text-align: center;
+  }
+/* album-grillas-productos */
+.album-grillas {
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    border: 2px solid cornflowerblue;
+    display: grid;
+    grid-template-columns: 330px 330px;
+    grid-template-rows: 250px 250px;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  .album-grillas img {
+    margin: 0;
+    width: 300px;
+    height: 200px;
+  }
+  
+  .album-grillas.grillas-img1 {
+    grid-column: 1/2;
+    grid-row: 1;
+  }
+    

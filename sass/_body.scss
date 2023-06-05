@@ -1,0 +1,84 @@
+a {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .clasebase-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(160, 218, 228);
+    padding: 10px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo p {
+    margin: 15px 5px;
+  }
+  .base-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  .base-ul li {
+    margin: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  .album-deco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .base-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(238, 235, 231, 0.822);
+    border-radius: 10%;
+    bottom: 10px;
+  }
+  .img-principal {
+    display: flex;
+    justify-content: right;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    margin: auto;
+  }
+  
+  
+  
+  a :hover {
+    color: rgb(25, 26, 27);
+    margin: 5px;
+    padding: 5px;
+    transition: linear;
+  }
+  
+  
+  .h1 {
+    display: flex;
+    text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    color: rgb(116, 111, 111);
+    justify-content: center;
+    height: auto;
+    width: auto;
+  }
+  /* bootstrap- */
+  
+  .en-proceso {
+    width: 20px;
+    height: 20px;
+  }
+  
+  
