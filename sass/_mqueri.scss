@@ -1,8 +1,6 @@
 /* media-queries */
-mqueri{
-
-
-@media (min-width: 200px) and (max-width:1140px ) {
+mqueri {
+  @media (min-width: 200px) and (max-width: 1140px) {
     .apartado {
       color: rgb(103, 194, 236);
       text-align: justify;
@@ -12,11 +10,10 @@ mqueri{
     .clasebase-header {
       flex-direction: column;
     }
-  
+
     .base-ul {
       flex-direction: column;
     }
   }
 }
-  /* fin-media-queries */
-  
+/* fin-media-queries */

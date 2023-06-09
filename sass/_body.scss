@@ -1,66 +1,5 @@
-a {
-    text-decoration: none;
-    background-color: rgba(0, 0, 0, 0);
-  }
-  .clasebase-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(160, 218, 228);
-    padding: 10px;
-  }
-  .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .logo p {
-    margin: 15px 5px;
-  }
-  .base-ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-  }
-  .base-ul li {
-    margin: 10px;
-    font-family: "Roboto Condensed", sans-serif;
-  }
-  .album-deco {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5px;
-    padding: 5px;
-    box-sizing: border-box;
-  }
-  
-  .base-formulario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgba(238, 235, 231, 0.822);
-    border-radius: 10%;
-    bottom: 10px;
-  }
-  .img-principal {
-    display: flex;
-    justify-content: right;
-    width: 30px;
-    height: 30px;
-    align-items: center;
-    margin: auto;
-  }
-  
-  a :hover {
-    color: rgb(25, 26, 27);
-    margin: 5px;
-    padding: 5px;
-    transition: linear;
-  }
-  
+body{
+
   .h1 {
     display: flex;
     text-align: center;
@@ -72,18 +11,10 @@ a {
     width: auto;
   }
   /* bootstrap- */
-  
+
   .en-proceso {
-    width: 20px;
-    height: 20px;
+    background-position: center;
+    width: 25%;
+    height: 25%;
   }
-  body::before {
-    font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-    "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 2 \2502  @import \"scss/variables.scss\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   sass\\style.scss 2:9  root stylesheet";
-  }
+}

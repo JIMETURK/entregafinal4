@@ -1,9 +1,9 @@
-
-header a{
+header {
+  a {
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0);
   }
-  
+
   .clasebase-header {
     display: flex;
     justify-content: space-between;
@@ -11,25 +11,29 @@ header a{
     background-color: rgb(160, 218, 228);
     padding: 10px;
   }
-  
+
   .logo {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
+
   .logo p {
     margin: 15px 5px;
   }
-  
+
   .base-ul {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
   }
-  
+
   .base-ul li {
     margin: 10px;
     font-family: "Roboto Condensed", sans-serif;
   }
+  a:hover {
+    background-color: rgb(184, 132, 204);
+  }
+}
