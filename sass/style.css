@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?");
+ @import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Permanent+Marker&family=Roboto+Condensed:ital,wght@0,300;0,400;1,700&display=swap');
+
 reset {
   margin: 0;
   padding: 0;
@@ -38,9 +40,6 @@ header a:hover {
   background-color: rgb(184, 132, 204);
 }
 
-grillas {
-  /* album-grillas-productos */
-}
 grillas .contenedor-area-grid {
   width: 100vh;
   height: 100vh;
@@ -170,9 +169,7 @@ grillas .album-grillas.grillas-img1 {
   grid-row: 1;
 }
 
-body {
-  /* bootstrap- */
-}
+
 body .h1 {
   display: flex;
   text-align: center;
@@ -224,7 +221,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(160, 218, 228);
+  background-color: rgb(136, 197, 207);
   padding: 10px;
 }
 

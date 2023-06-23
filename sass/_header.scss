@@ -3,7 +3,23 @@ header {
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0);
   }
-
+  h1 {
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(116, 111, 111);
+    justify-content: center;
+    height: auto;
+    width: auto;
+  }
+  .apartado {
+    color: rgb(70, 82, 213);
+      text-align: center;
+      padding: 15px;
+      color: rgb(172, 129, 211);
+      text-decoration:solid;
+    }
   .clasebase-header {
     display: flex;
     justify-content: space-between;
@@ -31,9 +47,9 @@ header {
 
   .base-ul li {
     margin: 10px;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   a:hover {
-    background-color: rgb(184, 132, 204);
+    background-color: rgb(45, 40, 58);
   }
 }
