@@ -26,7 +26,7 @@ header .apartado {
   padding: 15px;
   color: rgb(172, 129, 211);
   -webkit-text-decoration: solid;
-          text-decoration: solid;
+  text-decoration: solid;
 }
 header .clasebase-header {
   display: flex;
@@ -57,9 +57,6 @@ header a:hover {
   background-color: rgb(45, 40, 58);
 }
 
-body {
-  /* bootstrap- */
-}
 body .h1 {
   display: flex;
   text-align: center;
@@ -108,7 +105,7 @@ body .h2 {
     padding: 15px;
     color: rgb(172, 129, 211);
     -webkit-text-decoration: solid;
-            text-decoration: solid;
+    text-decoration: solid;
   }
 }
 
@@ -142,10 +139,8 @@ footer h1 {
 footer a:hover {
   background-color: rgb(140, 126, 217);
 }
+/* album-grillas-productos */
 
-grillas {
-  /* album-grillas-productos */
-}
 grillas .contenedor-area-grid {
   width: 100vh;
   height: 100vh;
@@ -244,7 +239,8 @@ grillas .intro {
   text-align: center;
   color: rgb(116, 111, 111);
   justify-content: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   height: auto;
   width: auto;
 }
@@ -268,7 +264,7 @@ grillas .album-grillas {
   grid-template-columns: 330px 330px;
   grid-template-rows: 250px 250px;
   -moz-column-gap: 20px;
-       column-gap: 20px;
+  column-gap: 20px;
   row-gap: 20px;
   background-color: rgb(237, 202, 230);
 }
@@ -280,4 +276,4 @@ grillas .album-grillas img {
 grillas .album-grillas.grillas-img1 {
   grid-column: 1/2;
   grid-row: 1;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
